@@ -1,5 +1,5 @@
 class Tracer {
-  constructor({ Xray } = {}) {
+  constructor(Xray) {
     this.Xray = Xray
   }
   createSegment({name, traceId, segmentId}){
