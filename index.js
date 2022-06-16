@@ -2,7 +2,7 @@ class Tracer {
   constructor(Xray) {
     this.Xray = Xray
   }
-  createSegment({name, traceId, segmentId}){
+  createSegment(name, traceId, segmentId){
     return new this.Xray.Segment(name, traceId, segmentId);
   }
   setSegment(segment){
