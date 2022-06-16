@@ -1,15 +1,19 @@
 {
   "name": "@lorenzzz0/example-package-tracer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/lorenzzz0/example-package-tracer.git",
-  "publishConfig": {
-    "@lorenzzz0:registry":"https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzzz0/example-package-tracer.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenzzz0/example-package-tracer/issues"
+  },
+  "homepage": "https://github.com/lorenzzz0/example-package-tracer#readme",
+  "description": ""
 }
