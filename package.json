@@ -8,7 +8,7 @@
   },
   "repository": "https://github.com/lorenzzz0/example-package-tracer.git",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "@lorenzzz0:registry":"https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC"
