@@ -15,5 +15,8 @@
     "url": "https://github.com/lorenzzz0/example-package-tracer/issues"
   },
   "homepage": "https://github.com/lorenzzz0/example-package-tracer#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
 }
