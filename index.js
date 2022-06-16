@@ -1,4 +1,4 @@
-export default class Tracer {
+class Tracer {
   constructor({ url, fetch, logger = null } = {}) {
     
   }
@@ -6,3 +6,5 @@ export default class Tracer {
     console.log('Should create a trace');
   }
 }
+
+module.exports = Tracer; 
